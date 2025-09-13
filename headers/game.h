@@ -1,9 +1,6 @@
 #ifndef GAME_H
 #define GAME_H
 
-#define SCREEN_WIDTH 1280
-#define SCREEN_HEIGHT 720
-
 #include <allegro5/allegro_font.h>
 
 #include "player.h"

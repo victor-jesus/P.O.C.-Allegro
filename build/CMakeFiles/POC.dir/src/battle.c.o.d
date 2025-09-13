@@ -1,13 +1,13 @@
 CMakeFiles/POC.dir/src/battle.c.o: \
- /home/victor-gustavo/Programação/POC\ 01/src/battle.c \
+ /home/victor-gustavo/Programação/POC_01/src/battle.c \
  /usr/include/stdc-predef.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/battle.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/battle_states.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/turn.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/player.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/entity.h \
+ /home/victor-gustavo/Programação/POC_01/headers/battle.h \
+ /home/victor-gustavo/Programação/POC_01/headers/battle_states.h \
+ /home/victor-gustavo/Programação/POC_01/headers/turn.h \
+ /home/victor-gustavo/Programação/POC_01/headers/player.h \
+ /home/victor-gustavo/Programação/POC_01/headers/entity.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/enemy.h \
+ /home/victor-gustavo/Programação/POC_01/headers/enemy.h \
  /usr/include/allegro5/allegro5.h /usr/include/allegro5/allegro.h \
  /usr/include/allegro5/base.h /usr/include/errno.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -108,7 +108,8 @@ CMakeFiles/POC.dir/src/battle.c.o: \
  /usr/include/allegro5/threads.h /usr/include/allegro5/timer.h \
  /usr/include/allegro5/tls.h /usr/include/allegro5/alcompat.h \
  /usr/include/allegro5/platform/alunix.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/dice.h \
+ /home/victor-gustavo/Programação/POC_01/headers/dice.h \
+ /home/victor-gustavo/Programação/POC_01/headers/screen.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \

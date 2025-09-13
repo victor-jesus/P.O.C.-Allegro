@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/victor-gustavo/Programação/POC 01"
+CMAKE_SOURCE_DIR = /home/victor-gustavo/Programação/POC_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/victor-gustavo/Programação/POC 01/build"
+CMAKE_BINARY_DIR = /home/victor-gustavo/Programação/POC_01/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/POC.dir/depend.make
@@ -70,102 +70,102 @@ include CMakeFiles/POC.dir/progress.make
 include CMakeFiles/POC.dir/flags.make
 
 CMakeFiles/POC.dir/src/main.c.o: CMakeFiles/POC.dir/flags.make
-CMakeFiles/POC.dir/src/main.c.o: /home/victor-gustavo/Programação/POC\ 01/src/main.c
+CMakeFiles/POC.dir/src/main.c.o: /home/victor-gustavo/Programação/POC_01/src/main.c
 CMakeFiles/POC.dir/src/main.c.o: CMakeFiles/POC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/POC.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/main.c.o -MF CMakeFiles/POC.dir/src/main.c.o.d -o CMakeFiles/POC.dir/src/main.c.o -c "/home/victor-gustavo/Programação/POC 01/src/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/POC.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/main.c.o -MF CMakeFiles/POC.dir/src/main.c.o.d -o CMakeFiles/POC.dir/src/main.c.o -c /home/victor-gustavo/Programação/POC_01/src/main.c
 
 CMakeFiles/POC.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/POC.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/victor-gustavo/Programação/POC 01/src/main.c" > CMakeFiles/POC.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor-gustavo/Programação/POC_01/src/main.c > CMakeFiles/POC.dir/src/main.c.i
 
 CMakeFiles/POC.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/POC.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/victor-gustavo/Programação/POC 01/src/main.c" -o CMakeFiles/POC.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor-gustavo/Programação/POC_01/src/main.c -o CMakeFiles/POC.dir/src/main.c.s
 
 CMakeFiles/POC.dir/src/game.c.o: CMakeFiles/POC.dir/flags.make
-CMakeFiles/POC.dir/src/game.c.o: /home/victor-gustavo/Programação/POC\ 01/src/game.c
+CMakeFiles/POC.dir/src/game.c.o: /home/victor-gustavo/Programação/POC_01/src/game.c
 CMakeFiles/POC.dir/src/game.c.o: CMakeFiles/POC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/POC.dir/src/game.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/game.c.o -MF CMakeFiles/POC.dir/src/game.c.o.d -o CMakeFiles/POC.dir/src/game.c.o -c "/home/victor-gustavo/Programação/POC 01/src/game.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/POC.dir/src/game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/game.c.o -MF CMakeFiles/POC.dir/src/game.c.o.d -o CMakeFiles/POC.dir/src/game.c.o -c /home/victor-gustavo/Programação/POC_01/src/game.c
 
 CMakeFiles/POC.dir/src/game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/POC.dir/src/game.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/victor-gustavo/Programação/POC 01/src/game.c" > CMakeFiles/POC.dir/src/game.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor-gustavo/Programação/POC_01/src/game.c > CMakeFiles/POC.dir/src/game.c.i
 
 CMakeFiles/POC.dir/src/game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/POC.dir/src/game.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/victor-gustavo/Programação/POC 01/src/game.c" -o CMakeFiles/POC.dir/src/game.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor-gustavo/Programação/POC_01/src/game.c -o CMakeFiles/POC.dir/src/game.c.s
 
 CMakeFiles/POC.dir/src/player.c.o: CMakeFiles/POC.dir/flags.make
-CMakeFiles/POC.dir/src/player.c.o: /home/victor-gustavo/Programação/POC\ 01/src/player.c
+CMakeFiles/POC.dir/src/player.c.o: /home/victor-gustavo/Programação/POC_01/src/player.c
 CMakeFiles/POC.dir/src/player.c.o: CMakeFiles/POC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/POC.dir/src/player.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/player.c.o -MF CMakeFiles/POC.dir/src/player.c.o.d -o CMakeFiles/POC.dir/src/player.c.o -c "/home/victor-gustavo/Programação/POC 01/src/player.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/POC.dir/src/player.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/player.c.o -MF CMakeFiles/POC.dir/src/player.c.o.d -o CMakeFiles/POC.dir/src/player.c.o -c /home/victor-gustavo/Programação/POC_01/src/player.c
 
 CMakeFiles/POC.dir/src/player.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/POC.dir/src/player.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/victor-gustavo/Programação/POC 01/src/player.c" > CMakeFiles/POC.dir/src/player.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor-gustavo/Programação/POC_01/src/player.c > CMakeFiles/POC.dir/src/player.c.i
 
 CMakeFiles/POC.dir/src/player.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/POC.dir/src/player.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/victor-gustavo/Programação/POC 01/src/player.c" -o CMakeFiles/POC.dir/src/player.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor-gustavo/Programação/POC_01/src/player.c -o CMakeFiles/POC.dir/src/player.c.s
 
 CMakeFiles/POC.dir/src/entity.c.o: CMakeFiles/POC.dir/flags.make
-CMakeFiles/POC.dir/src/entity.c.o: /home/victor-gustavo/Programação/POC\ 01/src/entity.c
+CMakeFiles/POC.dir/src/entity.c.o: /home/victor-gustavo/Programação/POC_01/src/entity.c
 CMakeFiles/POC.dir/src/entity.c.o: CMakeFiles/POC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/POC.dir/src/entity.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/entity.c.o -MF CMakeFiles/POC.dir/src/entity.c.o.d -o CMakeFiles/POC.dir/src/entity.c.o -c "/home/victor-gustavo/Programação/POC 01/src/entity.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/POC.dir/src/entity.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/entity.c.o -MF CMakeFiles/POC.dir/src/entity.c.o.d -o CMakeFiles/POC.dir/src/entity.c.o -c /home/victor-gustavo/Programação/POC_01/src/entity.c
 
 CMakeFiles/POC.dir/src/entity.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/POC.dir/src/entity.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/victor-gustavo/Programação/POC 01/src/entity.c" > CMakeFiles/POC.dir/src/entity.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor-gustavo/Programação/POC_01/src/entity.c > CMakeFiles/POC.dir/src/entity.c.i
 
 CMakeFiles/POC.dir/src/entity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/POC.dir/src/entity.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/victor-gustavo/Programação/POC 01/src/entity.c" -o CMakeFiles/POC.dir/src/entity.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor-gustavo/Programação/POC_01/src/entity.c -o CMakeFiles/POC.dir/src/entity.c.s
 
 CMakeFiles/POC.dir/src/enemy.c.o: CMakeFiles/POC.dir/flags.make
-CMakeFiles/POC.dir/src/enemy.c.o: /home/victor-gustavo/Programação/POC\ 01/src/enemy.c
+CMakeFiles/POC.dir/src/enemy.c.o: /home/victor-gustavo/Programação/POC_01/src/enemy.c
 CMakeFiles/POC.dir/src/enemy.c.o: CMakeFiles/POC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/POC.dir/src/enemy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/enemy.c.o -MF CMakeFiles/POC.dir/src/enemy.c.o.d -o CMakeFiles/POC.dir/src/enemy.c.o -c "/home/victor-gustavo/Programação/POC 01/src/enemy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/POC.dir/src/enemy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/enemy.c.o -MF CMakeFiles/POC.dir/src/enemy.c.o.d -o CMakeFiles/POC.dir/src/enemy.c.o -c /home/victor-gustavo/Programação/POC_01/src/enemy.c
 
 CMakeFiles/POC.dir/src/enemy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/POC.dir/src/enemy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/victor-gustavo/Programação/POC 01/src/enemy.c" > CMakeFiles/POC.dir/src/enemy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor-gustavo/Programação/POC_01/src/enemy.c > CMakeFiles/POC.dir/src/enemy.c.i
 
 CMakeFiles/POC.dir/src/enemy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/POC.dir/src/enemy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/victor-gustavo/Programação/POC 01/src/enemy.c" -o CMakeFiles/POC.dir/src/enemy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor-gustavo/Programação/POC_01/src/enemy.c -o CMakeFiles/POC.dir/src/enemy.c.s
 
 CMakeFiles/POC.dir/src/battle.c.o: CMakeFiles/POC.dir/flags.make
-CMakeFiles/POC.dir/src/battle.c.o: /home/victor-gustavo/Programação/POC\ 01/src/battle.c
+CMakeFiles/POC.dir/src/battle.c.o: /home/victor-gustavo/Programação/POC_01/src/battle.c
 CMakeFiles/POC.dir/src/battle.c.o: CMakeFiles/POC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/POC.dir/src/battle.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/battle.c.o -MF CMakeFiles/POC.dir/src/battle.c.o.d -o CMakeFiles/POC.dir/src/battle.c.o -c "/home/victor-gustavo/Programação/POC 01/src/battle.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/POC.dir/src/battle.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/battle.c.o -MF CMakeFiles/POC.dir/src/battle.c.o.d -o CMakeFiles/POC.dir/src/battle.c.o -c /home/victor-gustavo/Programação/POC_01/src/battle.c
 
 CMakeFiles/POC.dir/src/battle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/POC.dir/src/battle.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/victor-gustavo/Programação/POC 01/src/battle.c" > CMakeFiles/POC.dir/src/battle.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor-gustavo/Programação/POC_01/src/battle.c > CMakeFiles/POC.dir/src/battle.c.i
 
 CMakeFiles/POC.dir/src/battle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/POC.dir/src/battle.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/victor-gustavo/Programação/POC 01/src/battle.c" -o CMakeFiles/POC.dir/src/battle.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor-gustavo/Programação/POC_01/src/battle.c -o CMakeFiles/POC.dir/src/battle.c.s
 
 CMakeFiles/POC.dir/src/dice.c.o: CMakeFiles/POC.dir/flags.make
-CMakeFiles/POC.dir/src/dice.c.o: /home/victor-gustavo/Programação/POC\ 01/src/dice.c
+CMakeFiles/POC.dir/src/dice.c.o: /home/victor-gustavo/Programação/POC_01/src/dice.c
 CMakeFiles/POC.dir/src/dice.c.o: CMakeFiles/POC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/POC.dir/src/dice.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/dice.c.o -MF CMakeFiles/POC.dir/src/dice.c.o.d -o CMakeFiles/POC.dir/src/dice.c.o -c "/home/victor-gustavo/Programação/POC 01/src/dice.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/POC.dir/src/dice.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/POC.dir/src/dice.c.o -MF CMakeFiles/POC.dir/src/dice.c.o.d -o CMakeFiles/POC.dir/src/dice.c.o -c /home/victor-gustavo/Programação/POC_01/src/dice.c
 
 CMakeFiles/POC.dir/src/dice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/POC.dir/src/dice.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/victor-gustavo/Programação/POC 01/src/dice.c" > CMakeFiles/POC.dir/src/dice.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor-gustavo/Programação/POC_01/src/dice.c > CMakeFiles/POC.dir/src/dice.c.i
 
 CMakeFiles/POC.dir/src/dice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/POC.dir/src/dice.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/victor-gustavo/Programação/POC 01/src/dice.c" -o CMakeFiles/POC.dir/src/dice.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor-gustavo/Programação/POC_01/src/dice.c -o CMakeFiles/POC.dir/src/dice.c.s
 
 # Object files for target POC
 POC_OBJECTS = \
@@ -189,7 +189,7 @@ POC: CMakeFiles/POC.dir/src/battle.c.o
 POC: CMakeFiles/POC.dir/src/dice.c.o
 POC: CMakeFiles/POC.dir/build.make
 POC: CMakeFiles/POC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable POC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable POC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/POC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/POC.dir/clean:
 .PHONY : CMakeFiles/POC.dir/clean
 
 CMakeFiles/POC.dir/depend:
-	cd "/home/victor-gustavo/Programação/POC 01/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/victor-gustavo/Programação/POC 01" "/home/victor-gustavo/Programação/POC 01" "/home/victor-gustavo/Programação/POC 01/build" "/home/victor-gustavo/Programação/POC 01/build" "/home/victor-gustavo/Programação/POC 01/build/CMakeFiles/POC.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/victor-gustavo/Programação/POC_01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor-gustavo/Programação/POC_01 /home/victor-gustavo/Programação/POC_01 /home/victor-gustavo/Programação/POC_01/build /home/victor-gustavo/Programação/POC_01/build /home/victor-gustavo/Programação/POC_01/build/CMakeFiles/POC.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/POC.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/POC.dir/src/game.c.o: \
- /home/victor-gustavo/Programação/POC\ 01/src/game.c \
+ /home/victor-gustavo/Programação/POC_01/src/game.c \
  /usr/include/stdc-predef.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/game.h \
+ /home/victor-gustavo/Programação/POC_01/headers/game.h \
  /usr/include/allegro5/allegro_font.h /usr/include/allegro5/allegro.h \
  /usr/include/allegro5/base.h /usr/include/errno.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -104,11 +104,12 @@ CMakeFiles/POC.dir/src/game.c.o: \
  /usr/include/allegro5/threads.h /usr/include/allegro5/timer.h \
  /usr/include/allegro5/tls.h /usr/include/allegro5/alcompat.h \
  /usr/include/allegro5/platform/alunix.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/player.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/entity.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/enemy.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/battle.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/battle_states.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/turn.h \
+ /home/victor-gustavo/Programação/POC_01/headers/player.h \
+ /home/victor-gustavo/Programação/POC_01/headers/entity.h \
+ /home/victor-gustavo/Programação/POC_01/headers/enemy.h \
+ /home/victor-gustavo/Programação/POC_01/headers/battle.h \
+ /home/victor-gustavo/Programação/POC_01/headers/battle_states.h \
+ /home/victor-gustavo/Programação/POC_01/headers/turn.h \
  /usr/include/allegro5/allegro5.h /usr/include/allegro5/allegro.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/battle.h
+ /home/victor-gustavo/Programação/POC_01/headers/battle.h \
+ /home/victor-gustavo/Programação/POC_01/headers/screen.h

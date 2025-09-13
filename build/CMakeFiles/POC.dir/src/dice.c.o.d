@@ -1,7 +1,7 @@
 CMakeFiles/POC.dir/src/dice.c.o: \
- /home/victor-gustavo/Programação/POC\ 01/src/dice.c \
+ /home/victor-gustavo/Programação/POC_01/src/dice.c \
  /usr/include/stdc-predef.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/dice.h \
+ /home/victor-gustavo/Programação/POC_01/headers/dice.h \
  /usr/include/time.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

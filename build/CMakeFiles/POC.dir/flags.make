@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/victor-gustavo/Programação/POC 01/headers"
+C_INCLUDES = -I/home/victor-gustavo/Programação/POC_01/headers
 
 C_FLAGS = -std=gnu11
 

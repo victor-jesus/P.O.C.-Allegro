@@ -5,9 +5,7 @@
 #include <allegro5/allegro_font.h>
 #include "game.h"
 #include "time.h"
-
-#define SCREEN_WIDTH 1280
-#define SCREEN_HEIGHT 720
+#include "screen.h"
 
 #define KEY_SEEN 1
 #define KEY_DOWN 2
@@ -44,7 +42,7 @@ int main(){
     must_init(al_init_primitives_addon(), "primitives");
     must_init(al_init_font_addon(), "font");
 
-    ALLEGRO_DISPLAY* display = al_create_display(SCREEN_WIDTH, SCREEN_HEIGHT);
+    ALLEGRO_DISPLAY* display = al_create_display(SCREEN_W, SCREEN_H);
     ALLEGRO_TIMER* fps = al_create_timer(1.0 / 60.0);
     ALLEGRO_FONT* font = al_create_builtin_font();
     ALLEGRO_EVENT_QUEUE* queue = al_create_event_queue();
@@ -63,7 +61,7 @@ int main(){
 
     al_start_timer(fps);
 
-    Game* game = create_game(GAME_EXPLORING, font, 200, SCREEN_HEIGHT / 2, 5, 100);
+    Game* game = create_game(GAME_EXPLORING, font, 200, SCREEN_H / 2, 5, 100);
 
     unsigned char key[ALLEGRO_KEY_MAX];
     memset(key, 0, sizeof(key));

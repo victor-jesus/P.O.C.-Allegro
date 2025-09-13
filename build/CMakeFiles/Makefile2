@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/victor-gustavo/Programação/POC 01"
+CMAKE_SOURCE_DIR = /home/victor-gustavo/Programação/POC_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/victor-gustavo/Programação/POC 01/build"
+CMAKE_BINARY_DIR = /home/victor-gustavo/Programação/POC_01/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/POC.dir/clean
 CMakeFiles/POC.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POC.dir/build.make CMakeFiles/POC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POC.dir/build.make CMakeFiles/POC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target POC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/victor-gustavo/Programação/POC_01/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target POC"
 .PHONY : CMakeFiles/POC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/POC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor-gustavo/Programação/POC_01/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/POC.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/victor-gustavo/Programação/POC 01/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor-gustavo/Programação/POC_01/build/CMakeFiles 0
 .PHONY : CMakeFiles/POC.dir/rule
 
 # Convenience name for target.

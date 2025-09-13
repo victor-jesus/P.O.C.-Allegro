@@ -1,8 +1,8 @@
 CMakeFiles/POC.dir/src/enemy.c.o: \
- /home/victor-gustavo/Programação/POC\ 01/src/enemy.c \
+ /home/victor-gustavo/Programação/POC_01/src/enemy.c \
  /usr/include/stdc-predef.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/enemy.h \
- /home/victor-gustavo/Programação/POC\ 01/headers/entity.h \
+ /home/victor-gustavo/Programação/POC_01/headers/enemy.h \
+ /home/victor-gustavo/Programação/POC_01/headers/entity.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/include/allegro5/allegro5.h /usr/include/allegro5/allegro.h \
  /usr/include/allegro5/base.h /usr/include/errno.h \

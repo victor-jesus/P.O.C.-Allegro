@@ -18,7 +18,6 @@ set(SRC
 # Cria o executável
 add_executable(${PROJECT_NAME} ${SRC})
 
-# Incluir a pasta "include" (para os headers .h do projeto)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/headers)
 
 # ==========================

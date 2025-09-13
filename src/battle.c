@@ -1,5 +1,6 @@
 #include "battle.h"
 #include "dice.h"
+#include "screen.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <allegro5/allegro5.h>
@@ -10,7 +11,7 @@ Battle* start_battle(Player* player, Enemy* enemy){
     battle->enemy = enemy;
 
     battle->player->entity.x = 300;
-    battle->enemy->entity.x = 1280 - 300;
+    battle->enemy->entity.x = SCREEN_W - 300;
 
     battle->state = BATTLE_START;
 

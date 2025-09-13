@@ -1,5 +1,6 @@
 #include "game.h"
 #include "battle.h"
+#include "screen.h"
 #include "allegro5/allegro5.h"
 
 Game* create_game(Game_state state, ALLEGRO_FONT* font, int pos_x_player, int pos_y_player, int vx_player, int hp_player){
@@ -50,18 +51,18 @@ void update_game(Game* game, const char* key, ALLEGRO_EVENT event, ALLEGRO_TIMER
 
 void draw_game(Game* game){
     if(game->state == GAME_BATTLE){
-        al_draw_text(game->game_font, al_map_rgb(255, 255, 255), SCREEN_WIDTH / 2, 50, ALLEGRO_ALIGN_CENTER, "BATALHA!");
+        al_draw_text(game->game_font, al_map_rgb(255, 255, 255), SCREEN_W / 2, 50, ALLEGRO_ALIGN_CENTER, "BATALHA!");
 
         if(game->battle->turn_state == TURN_PLAYER)
-            al_draw_text(game->game_font, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2, 150, ALLEGRO_ALIGN_CENTER, "Turno do player");
+            al_draw_text(game->game_font, al_map_rgb(255, 255, 0), SCREEN_W / 2, 150, ALLEGRO_ALIGN_CENTER, "Turno do player");
         else 
-            al_draw_text(game->game_font, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2, 150, ALLEGRO_ALIGN_CENTER, "Turno do inimigo");
+            al_draw_text(game->game_font, al_map_rgb(255, 255, 0), SCREEN_W / 2, 150, ALLEGRO_ALIGN_CENTER, "Turno do inimigo");
 
-        al_draw_text(game->game_font, al_map_rgb(255, 255, 0), 40, (SCREEN_HEIGHT / 2) - 300, ALLEGRO_ALIGN_LEFT, "Player");
-        al_draw_textf(game->game_font, al_map_rgb(255, 255, 0), 40, (SCREEN_HEIGHT / 2) - 290, ALLEGRO_ALIGN_LEFT, "HP: %d", game->player->entity.hp);
+        al_draw_text(game->game_font, al_map_rgb(255, 255, 0), 40, (SCREEN_H / 2) - 300, ALLEGRO_ALIGN_LEFT, "Player");
+        al_draw_textf(game->game_font, al_map_rgb(255, 255, 0), 40, (SCREEN_H / 2) - 290, ALLEGRO_ALIGN_LEFT, "HP: %d", game->player->entity.hp);
 
-        al_draw_text(game->game_font, al_map_rgb(255, 255, 0), SCREEN_WIDTH - 40, SCREEN_HEIGHT / 2 - 300, ALLEGRO_ALIGN_RIGHT, "Enemy");
-        al_draw_textf(game->game_font, al_map_rgb(255, 255, 0), SCREEN_WIDTH - 40, SCREEN_HEIGHT / 2 - 290, ALLEGRO_ALIGN_RIGHT, "HP: %d", game->enemy->entity.hp);
+        al_draw_text(game->game_font, al_map_rgb(255, 255, 0), SCREEN_W - 40, SCREEN_H / 2 - 300, ALLEGRO_ALIGN_RIGHT, "Enemy");
+        al_draw_textf(game->game_font, al_map_rgb(255, 255, 0), SCREEN_W - 40, SCREEN_H / 2 - 290, ALLEGRO_ALIGN_RIGHT, "HP: %d", game->enemy->entity.hp);
     }
 
     al_draw_text(game->game_font, al_map_rgb(255, 255, 0), game->player->entity.x, game->player->entity.y - 30, ALLEGRO_ALIGN_CENTER, "Player");
